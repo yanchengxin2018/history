@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台主页</title>
+    <style>
+        .main
+        {
+            width: 100px;
+            height: 30px;
+            border: #1b8dbb solid 1px;
+        }
+    </style>
+</head>
+<body>
+测试管理员账户：123456  密码：123456 <a href="{{ url_root }}/user/Login"  class="main">点此登陆</a><br><br>
+<a href="{{ url_root }}/api/Questionnaire_Province/" class="main">省/直辖市管理</a><br><br>
+<a href="{{ url_root }}/api/Questionnaire_City/" class="main">市/区管理</a><br><br>
+<a href="{{ url_root }}/api/Questionnaire_School/" class="main">学校管理</a><br><br>
+<a href="{{ url_root }}/api/Questionnaire_Grade/" class="main">年级管理</a><br><br>
+<a href="{{ url_root }}/api/Questionnaire_Class/" class="main">班级管理</a><br><br>
+<a href="{{ url_root }}/api/Questionnaire_VailedTeacher/" class="main">验证老师的合法性</a><br><br>
+<a href="{{ url_root }}/newneed/batchclassquestionnaire/" class="main">批量添加问卷</a><br><br>
+<a href="{{ url_root }}/api/Questionnaire_Users/"  class="main">所有用户</a><br><br>
+<a href="{{ url_root }}/api/Questionnaire_BatchTeacher/"  class="main">批量注册</a><br><br>
+<a href="{{ url_root }}/api/Questionnaire_Questionnaire/"  class="main">把金数据的问卷添加到我们的服务器</a><br><br>
+<a href="{{ url_root }}/role/CreateUserRole/"  class="main">为用户指定角色</a><br><br>
+<a href="{{ url_root }}/role/CreateSchoolHead/"  class="main">完整的添加一个校长</a><br><br>
+</body>
+</html>
+
+
+
+
+
+
+---------------------------------------<br>
+老师如何使用这套系统？<br>
+1.在注册页面输入必要信息  <a href="/index">主页链接</a><br>
+2.等待管理员审核通过<br>
+3.输入手机号和密码登陆(未审核通过之前,登陆后没有任何信息。审核通过之后,可以正常使用)<br>
+管理员怎么对老师进行验证？<br>
+1.<a href="/static/dist/index.html#/user/login">登陆</a><br>
+2.进入<a href="/back">管理员主页</a>(本页就是管理员主页)<br>
+3.点击    验证老师的合法性<br>
+4.后面的操作就很人性化了,不再赘述<br>
+---------------------------------------<br>
+怎么把问卷注册到服务器？<br>
+1.首先看金数据的设置<br>
+<img src="/static/jiaocheng.png"><br>
+2.在设置里点击1和2,然后选中3。在4的位置输入118.25.213.122:8889/api/Questionnaire_QuestionnaireMedia/<br>
+3.点击5,会出现字段详情<br>
+4.保存后不要关闭页面,后面在我们的服务器的一些操作会用到一些信息。<br>
+5.现在我们把这个问卷的信息保存到我们自己的服务器，<a href="/api/Questionnaire_Questionnaire">点击这个链接</a><br>
+6.会出现所有添加过的问卷,拉到网页的最底部会有输入框.下面是图片<br>
+<img src="/static/jiaocheng_2.png"><br>
+6-1:第1个红框填问卷的链接。金数据图例的6的位置<br>
+6-2:第2个红框填一个名字,什么都行<br>
+6-3:第3个红框选择一个问卷的类型.<br>
+6-4:第4-7个红框填写的就是金数据里面学校年级班级姓名的字段.金数据图例里面的7的位置。<br>
+6-5:第8个红框就是提交按钮
+下面是填写的范例的图片:<br>
+<img src="/static/jiaocheng_3.png"><br>
+这样,服务器里就存在这份问卷了<br>
+---------------------------------------<br>
+怎么把问卷分发到班级？<br>
+在管理员主页,也就是本页面,点击‘批量添加问卷’链接。后面的操作很人性化，不再赘述<br>
+---------------------------------------<br>
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="/static/register/register.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/static/register/register.js"></script>
+</head>
+<body>
+    <div id="choice">
+        <div id="log" onclick="window.location='/main/main/';"></div>
+        <form action="/main/register/" method="post" id="register_form">
+            {% csrf_token %}
+            <text id="register_mobile_text">&nbsp手机号</text><input type="text" name="mobile" id="register_mobile"><br><br>
+            <text id="register_password_text">&nbsp密码</text><input type="text" name="password" id="register_password"><br><br>
+            <text id="register_re_password_text">&nbsp确认</text><input type="text" name="re_password" id="register_re_password"><br><br>
+            <input type="submit" id="register_submit" value="注册"><br><br>
+        </form>
+
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+ssh ubuntu@118.25.213.122 Caobo132589  曹波的服务器
+
+ssh ubuntu@129.211.14.136 Aa123456     闫成欣的服务器
+yanchengxin2018 Ycx17686988582
+ssh wali@180.76.163.21 walimaker       瓦力的服务器
+
+
+
+
+
+

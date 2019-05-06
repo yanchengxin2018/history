@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>批量添加问卷</title>
+    <style>
+        #list
+        {
+            width: 800px;
+            left: 20px;
+            border: #1b8dbb solid 1px;
+            position: absolute;
+        }
+        #send
+        {
+            width: 800px;
+            left: 850px;
+            border: #5cb85c solid 1px;
+            position: absolute;
+        }
+        #content
+        {
+            width: 800px;
+            left: 20px;
+            top: 80px;
+            border: #1b8dbb solid 1px;
+            position: absolute;
+        }
+    </style>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+    <div id="content">
+
+    </div>
+    <div id="list">
+        省
+        <select id="province">
+            <option></option>
+        </select>
+        城市
+        <select  id="city">
+            <option></option>
+        </select>
+        学校
+        <select  id="school">
+            <option></option>
+        </select>
+        年级
+        <select  id="grade">
+            <option></option>
+        </select>
+        班级
+        <select  id="banji">
+            <option></option>
+        </select>
+        <button id='find_button'>查询</button>
+    </div>
+
+    <div id="send">
+        为这些班级分配一份问卷<br><br>
+        <select  id="wenjuan"></select><br><br>
+        <button id='submit_button'>确认提交</button><br><br>
+    </div>
+
+    <script>
+        window.onload = start;
+        var args={}
+        var url_root='{{ url_root }}'
+        var id_set=[]
+        //开始
+        function start() 　　
+        {
+            $('#province').bind("change", change_province)
+            $('#city').bind("change", change_city)
+            $('#school').bind("change", change_school)
+            $('#grade').bind("change", change_grade)
+            $("#find_button").click(find_classes);
+            $("#submit_button").click(submit_data);
+            get_province()
+            get_wenjuan()
+        } 　　
+
+        //得到省列表
+        function get_province() {
+            var province_obj=$('#province')
+            $.get(url_root+"/api/Questionnaire_Province/",function(data,status){
+             data=data['results']
+             for(var i=0;i<data.length;i++)
+             {
+                 var province=data[i].province_name
+                 var my_id=data[i].id
+                 province_obj.append('<option my_id='+my_id+'>'+province+'</option>')
+             }
+             province_obj.prop("selected", 'selected');
+             change_province()
+             });
+        }
+        //得到城市列表
+        function get_city(province_id) {
+            var city_obj=$('#city')
+            $.get(url_root+"/api/Questionnaire_City/?province_id="+province_id,
+                            function(data,status){
+             data=data['results']
+
+             for(var i=0;i<data.length;i++)
+             {
+                 var city=data[i].city_name
+                 var my_id=data[i].id
+                 city_obj.append('<option my_id='+my_id+'>'+city+'</option>')
+             }
+             city_obj.prop("selected", 'selected');
+             change_city()
+             });
+        }
+        //得到学校列表
+        function get_school(city_id) {
+            var school_obj=$('#school')
+            $.get(url_root+"/api/Questionnaire_School/?city_id="+city_id,
+                function(data,status){
+             data=data['results']
+             for(var i=0;i<data.length;i++)
+             {
+                 var school=data[i].school_name
+                 var my_id=data[i].id
+                 school_obj.append('<option my_id='+my_id+'>'+school+'</option>')
+             }
+             school_obj.prop("selected", 'selected');
+             change_school()
+             });
+        }
+        //得到年级列表
+        function get_grade(school_id) {
+            var grade_obj= $('#grade')
+            $.get(url_root+"/api/Questionnaire_Grade/?school_id="+school_id,
+                function(data,status){
+             data=data['results']
+             for(var i=0;i<data.length;i++)
+             {
+                 var grade=data[i].grade_name
+                 var my_id=data[i].id
+                 grade_obj.append('<option my_id='+my_id+'>'+grade+'</option>')
+             }
+             grade_obj.prop("selected", 'selected');
+             change_grade()
+             });
+        }
+        //得到班级列表
+        function get_class(grade_id) {
+                $.get(url_root+"/api/Questionnaire_Class/?grade_id="+grade_id,
+                function(data,status){
+             data=data['results']
+             for(var i=0;i<data.length;i++)
+             {
+                 var banji=data[i].class_name
+                 var my_id=data[i].id
+                 $('#banji').append('<option my_id='+my_id+'>'+banji+'</option>')
+             }
+             });
+        }
+        //得到问卷列表
+        function get_wenjuan() {
+            $.get(url_root+"/api/Questionnaire_Questionnaire/",
+                function(data,status){
+             data=data['results']
+             for(var i=0;i<data.length;i++)
+             {
+                 var banji=data[i].questionnaire_name
+                 var my_id=data[i].id
+                 $('#wenjuan').append('<option my_id='+my_id+'>'+banji+'</option>')
+             }
+             });
+        }
+
+        //改变了省
+        function change_province()
+        {
+            var my_id=$('#province').find("option:selected").attr("my_id");
+            var city_obj=$('#city')
+            city_obj.empty();
+            city_obj.append('<option></option>')
+            get_city(my_id)
+        }
+        //改变了城市
+        function change_city()
+        {
+            var my_id=$('#city').find("option:selected").attr("my_id");
+            var school_obj=$('#school')
+            school_obj.empty();
+            school_obj.append('<option></option>')
+            get_school(my_id)
+        }
+        //改变了学校
+        function change_school()
+        {
+            var my_id=$('#school').find("option:selected").attr("my_id");
+            var grade_obj=$('#grade')
+            grade_obj.empty();
+            grade_obj.append('<option></option>')
+            get_grade(my_id)
+        }
+        //改变了年级
+        function change_grade()
+        {
+            var my_id=$('#grade').find("option:selected").attr("my_id");
+            var banji_obj=$('#banji')
+            banji_obj.empty();
+            banji_obj.append('<option></option>')
+            get_class(my_id)
+        }
+        //查找班级集
+        function find_classes() {
+            //省 市 学校 年级 班级
+            var province_obj=$('#province')
+            var city_obj=$('#city')
+            var school_obj=$('#school')
+            var grade_obj=$('#grade')
+            var banji_obj=$('#banji')
+
+            if (province_obj.val())
+            {
+                args['province_id']=province_obj.find("option:selected").attr("my_id");
+            }
+            else
+            {
+                args['province_id']='';
+            }
+
+            if (city_obj.val())
+            {
+                args['city_id']=city_obj.find("option:selected").attr("my_id");
+            }
+            else
+            {
+                args['city_id']='';
+            }
+
+            if (school_obj.val())
+            {
+                args['school_id']=school_obj.find("option:selected").attr("my_id");
+            }
+            else
+            {
+                args['school_id']='';
+            }
+
+            if (grade_obj.val())
+            {
+                args['grade_id']=grade_obj.find("option:selected").attr("my_id");
+            }
+            else
+            {
+                args['grade_id']='';
+            }
+
+            if (banji_obj.val())
+            {
+                args['banji_id']=banji_obj.find("option:selected").attr("my_id");
+            }
+            else
+            {
+                args['banji_id']='';
+            }
+            //{ province_id: "3", city_id: "3", school_id: "9", grade_id: "36", banji_id: "23" }
+            $.post(url_root+"/api/Questionnaire_BatchClassQuestionnaireOfId/",args,function(data) {
+                var content_obj=$('#content')
+                content_obj.empty()
+                id_set=[]
+                for(var i=0;i<data.length;i++)
+                {
+                    //省 市 学校 年级 班级
+                    var info=`学校：${data[i].school}|年级：${data[i].grade}|班级：${data[i].class_name}<br>`
+                    content_obj.append(info)
+                    id_set.push(data[i].id)
+                }
+            },"json");
+
+        }
+        //提交班级集和问卷id
+        function submit_data()
+        {
+            var wenjuan_id=$('#wenjuan').find("option:selected").attr("my_id");
+            var args={'class_ids':JSON.stringify(id_set),'wenjuan_id':wenjuan_id,'append':'yes'}
+            $.post(url_root+"/api/Questionnaire_BatchClassQuestionnaireOfId/",args,function(data) {
+                alert('添加成功,请继续其他操作');
+            },"json");
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

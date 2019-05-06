@@ -1,0 +1,945 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 30 16:19:02 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-43-generic #46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63161
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36403 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x5556739aed20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5556739aed20 pid: 9960 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9960)
+spawned uWSGI worker 1 (pid: 9965, cores: 4)
+spawned uWSGI worker 2 (pid: 9969, cores: 4)
+spawned uWSGI http 1 (pid: 9970)
+11
+1
+{'name': 'xxx698555', 'mobile': '17686988582', 'password': 'pbkdf2_sha256$120000$6epv45a6PdyB$qqZKcdt1uxXCO560U7szWfJWj807I/Fv+/MVMYx9EK0=', 'username': '17686988582'}
+<QuerySet [<Users: 闫成欣>]>
+222
+[pid: 9969|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 1169 bytes} [Wed Jan 30 16:19:06 2019] POST /api/Questionnaire_Teacher/ => generated 10399 bytes in 346 msecs (HTTP/1.1 400) 5 headers in 175 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 30 16:20:59 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-43-generic #46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63161
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44987 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x55d399319d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55d399319d20 pid: 10031 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10031)
+spawned uWSGI worker 1 (pid: 10036, cores: 4)
+spawned uWSGI worker 2 (pid: 10040, cores: 4)
+spawned uWSGI http 1 (pid: 10041)
+11
+1
+222
+[pid: 10036|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 1169 bytes} [Wed Jan 30 16:21:03 2019] POST /api/Questionnaire_Teacher/ => generated 10399 bytes in 335 msecs (HTTP/1.1 400) 5 headers in 175 bytes (1 switches on core 0)
+[pid: 10040|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 983 bytes} [Wed Jan 30 16:22:15 2019] GET /api/Questionnaire_Teacher/ => generated 14226 bytes in 271 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 30 16:23:01 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-43-generic #46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63161
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33493 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x562117510d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x562117510d20 pid: 10090 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10090)
+spawned uWSGI worker 1 (pid: 10095, cores: 4)
+spawned uWSGI worker 2 (pid: 10099, cores: 4)
+spawned uWSGI http 1 (pid: 10100)
+[pid: 10099|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 984 bytes} [Wed Jan 30 16:23:03 2019] GET /api/Questionnaire_Teacher/ => generated 14226 bytes in 297 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 10099|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 1171 bytes} [Wed Jan 30 16:23:06 2019] POST /api/Questionnaire_Teacher/ => generated 142789 bytes in 153 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 30 16:24:50 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-43-generic #46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63161
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40291 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x55f27787bd20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55f27787bd20 pid: 10154 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10154)
+spawned uWSGI worker 1 (pid: 10159, cores: 4)
+spawned uWSGI worker 2 (pid: 10163, cores: 4)
+spawned uWSGI http 1 (pid: 10164)
+(2, {'admin.LogEntry': 0, 'Questionnaire.CityCityHead': 0, 'Questionnaire.GradeGradeHead': 0, 'Questionnaire.ProvinceProvinceHead': 0, 'Questionnaire.SchoolMaster': 0, 'Questionnaire.Users_groups': 0, 'Questionnaire.Users_user_permissions': 0, 'Questionnaire.UsersRoles': 1, 'Questionnaire.WaitSend': 0, 'Questionnaire.Users': 1})
+查看了手机验证码
+[pid: 10163|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 940 bytes} [Wed Jan 30 16:24:58 2019] GET /test => generated 5351 bytes in 236 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 10159|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 1169 bytes} [Wed Jan 30 16:25:07 2019] POST /api/Questionnaire_Teacher/ => generated 10586 bytes in 360 msecs (HTTP/1.1 201) 5 headers in 171 bytes (1 switches on core 0)
+[pid: 10159|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 1168 bytes} [Wed Jan 30 16:26:14 2019] POST /api/Questionnaire_Teacher/ => generated 10588 bytes in 59 msecs (HTTP/1.1 400) 5 headers in 175 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Tue Feb 12 17:18:00 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63323
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41991 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x564e8e53fd20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x564e8e53fd20 pid: 20809 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20809)
+spawned uWSGI worker 1 (pid: 20820, cores: 4)
+spawned uWSGI worker 2 (pid: 20821, cores: 4)
+spawned uWSGI http 1 (pid: 20825)
+[pid: 20820|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 655 bytes} [Tue Feb 12 17:18:32 2019] GET / => generated 5158 bytes in 215 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 20820|app: 0|req: 5/2] 127.0.0.1 () {38 vars in 686 bytes} [Tue Feb 12 17:18:32 2019] GET /static/rest_framework/css/bootstrap.min.css => generated 121200 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 1)
+[pid: 20820|app: 0|req: 6/5] 127.0.0.1 () {38 vars in 692 bytes} [Tue Feb 12 17:18:32 2019] GET /static/rest_framework/css/bootstrap-tweaks.css => generated 3385 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 2)
+[pid: 20820|app: 0|req: 6/5] 127.0.0.1 () {38 vars in 676 bytes} [Tue Feb 12 17:18:32 2019] GET /static/rest_framework/css/prettify.css => generated 817 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 5 headers in 153 bytes (0 switches on core 3)
+[pid: 20820|app: 0|req: 6/5] 127.0.0.1 () {38 vars in 673 bytes} [Tue Feb 12 17:18:32 2019] GET /static/rest_framework/js/jquery-3.3.1.min.js => generated 86927 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 0)
+[pid: 20820|app: 0|req: 6/6] 127.0.0.1 () {38 vars in 649 bytes} [Tue Feb 12 17:18:32 2019] GET /static/rest_framework/js/csrf.js => generated 1735 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 1)
+[pid: 20820|app: 0|req: 7/7] 127.0.0.1 () {38 vars in 667 bytes} [Tue Feb 12 17:18:32 2019] GET /static/rest_framework/js/bootstrap.min.js => generated 37045 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 4/8] 127.0.0.1 () {38 vars in 674 bytes} [Tue Feb 12 17:18:32 2019] GET /static/rest_framework/css/default.css => generated 1131 bytes in 165 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 4/9] 127.0.0.1 () {38 vars in 665 bytes} [Tue Feb 12 17:18:32 2019] GET /static/rest_framework/js/prettify-min.js => generated 13632 bytes in 160 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 4/10] 127.0.0.1 () {38 vars in 655 bytes} [Tue Feb 12 17:18:32 2019] GET /static/rest_framework/js/default.js => generated 1268 bytes in 160 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 4/11] 127.0.0.1 () {38 vars in 659 bytes} [Tue Feb 12 17:18:32 2019] GET /static/rest_framework/js/ajax-form.js => generated 3597 bytes in 165 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 5/12] 127.0.0.1 () {38 vars in 710 bytes} [Tue Feb 12 17:18:33 2019] GET /static/rest_framework/img/grid.png => generated 1458 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20820|app: 0|req: 8/13] 127.0.0.1 () {36 vars in 642 bytes} [Tue Feb 12 17:18:33 2019] GET /favicon.ico => generated 4842 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 20820|app: 0|req: 9/14] 127.0.0.1 () {38 vars in 663 bytes} [Tue Feb 12 17:18:35 2019] GET /back => generated 0 bytes in 0 msecs (HTTP/1.1 301) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 20820|app: 0|req: 10/15] 127.0.0.1 () {38 vars in 665 bytes} [Tue Feb 12 17:18:35 2019] GET /back/ => generated 0 bytes in 0 msecs (HTTP/1.1 302) 5 headers in 154 bytes (1 switches on core 3)
+[pid: 20821|app: 0|req: 6/16] 127.0.0.1 () {38 vars in 689 bytes} [Tue Feb 12 17:18:35 2019] GET /static/index.html => generated 3508 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20820|app: 0|req: 11/17] 127.0.0.1 () {38 vars in 657 bytes} [Tue Feb 12 17:18:35 2019] GET /static/jiaocheng_2.png => generated 77483 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 8/18] 127.0.0.1 () {38 vars in 657 bytes} [Tue Feb 12 17:18:35 2019] GET /static/jiaocheng_3.png => generated 80841 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 8/19] 127.0.0.1 () {38 vars in 653 bytes} [Tue Feb 12 17:18:35 2019] GET /static/jiaocheng.png => generated 89720 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 9/20] 127.0.0.1 () {38 vars in 699 bytes} [Tue Feb 12 17:18:45 2019] GET /static/usersroles.html => generated 217 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 10/21] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:19:43 2019] GET /static/usersroles.html => generated 319 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 11/22] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:19:44 2019] GET /static/usersroles.html => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 12/23] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:19:44 2019] GET /static/usersroles.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 13/24] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:20:33 2019] GET /static/usersroles.html => generated 377 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 14/25] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:22:14 2019] GET /static/usersroles.html => generated 492 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 15/26] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:22:38 2019] GET /static/usersroles.html => generated 442 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 16/27] 127.0.0.1 () {42 vars in 812 bytes} [Tue Feb 12 17:22:40 2019] GET /static/usersroles.html => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 17/28] 127.0.0.1 () {42 vars in 812 bytes} [Tue Feb 12 17:22:41 2019] GET /static/usersroles.html => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 18/29] 127.0.0.1 () {42 vars in 812 bytes} [Tue Feb 12 17:22:43 2019] GET /static/usersroles.html => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 1)
+[pid: 20820|app: 0|req: 12/30] 127.0.0.1 () {42 vars in 812 bytes} [Tue Feb 12 17:22:44 2019] GET /static/usersroles.html => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 1)
+[pid: 20820|app: 0|req: 13/31] 127.0.0.1 () {42 vars in 812 bytes} [Tue Feb 12 17:22:44 2019] GET /static/usersroles.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 19/32] 127.0.0.1 () {42 vars in 812 bytes} [Tue Feb 12 17:22:44 2019] GET /static/usersroles.html => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 0)
+[pid: 20820|app: 0|req: 14/33] 127.0.0.1 () {42 vars in 812 bytes} [Tue Feb 12 17:22:45 2019] GET /static/usersroles.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 20/34] 127.0.0.1 () {44 vars in 843 bytes} [Tue Feb 12 17:26:23 2019] GET /static/usersroles.html => generated 769 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 21/35] 127.0.0.1 () {44 vars in 843 bytes} [Tue Feb 12 17:26:49 2019] GET /static/usersroles.html => generated 1031 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20820|app: 0|req: 15/36] 127.0.0.1 () {44 vars in 843 bytes} [Tue Feb 12 17:27:12 2019] GET /static/usersroles.html => generated 1022 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20820|app: 0|req: 16/37] 127.0.0.1 () {44 vars in 843 bytes} [Tue Feb 12 17:27:14 2019] GET /static/usersroles.html => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 22/38] 127.0.0.1 () {40 vars in 754 bytes} [Tue Feb 12 17:27:15 2019] GET /static/usersroles.html => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 23/39] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:27:16 2019] GET /static/usersroles.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 2)
+[pid: 20820|app: 0|req: 17/40] 127.0.0.1 () {38 vars in 699 bytes} [Tue Feb 12 17:27:22 2019] GET /static/usersroles.html => generated 1022 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 24/41] 127.0.0.1 () {36 vars in 642 bytes} [Tue Feb 12 17:27:22 2019] GET /favicon.ico => generated 4842 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 20821|app: 0|req: 25/42] 127.0.0.1 () {40 vars in 754 bytes} [Tue Feb 12 17:27:44 2019] GET /static/usersroles.html => generated 1022 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 26/43] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:29:14 2019] GET /static/usersroles.html => generated 1033 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 27/44] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:29:37 2019] GET /static/usersroles.html => generated 1034 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 28/45] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:36:02 2019] GET /static/usersroles.html => generated 1317 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 29/46] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:36:10 2019] GET /static/usersroles.html => generated 1318 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20820|app: 0|req: 18/47] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:36:36 2019] GET /static/usersroles.html => generated 1329 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 30/48] 127.0.0.1 () {38 vars in 699 bytes} [Tue Feb 12 17:36:44 2019] GET /static/usersroles.html => generated 1329 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 31/49] 127.0.0.1 () {36 vars in 642 bytes} [Tue Feb 12 17:36:44 2019] GET /favicon.ico => generated 4842 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 20821|app: 0|req: 32/50] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:36:50 2019] GET /static/usersroles.html => generated 1325 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 33/51] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:37:16 2019] GET /static/usersroles.html => generated 1429 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20820|app: 0|req: 19/52] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:38:08 2019] GET /static/usersroles.html => generated 1428 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 34/53] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:38:32 2019] GET /static/usersroles.html => generated 1606 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 35/54] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:38:49 2019] GET /static/usersroles.html => generated 1607 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 36/55] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:38:59 2019] GET /static/usersroles.html => generated 1607 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 37/56] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:39:21 2019] GET /static/usersroles.html => generated 1631 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20820|app: 0|req: 20/57] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:39:45 2019] GET /static/usersroles.html => generated 1630 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 38/58] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:39:59 2019] GET /static/usersroles.html => generated 1653 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 39/59] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:40:10 2019] GET /static/usersroles.html => generated 1653 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 40/60] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:40:16 2019] GET /static/usersroles.html => generated 1653 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 41/61] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:40:19 2019] GET /static/usersroles.html => generated 1653 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 42/62] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:40:27 2019] GET /static/usersroles.html => generated 1655 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 43/63] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:40:34 2019] GET /static/usersroles.html => generated 1655 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 44/64] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:40:43 2019] GET /static/usersroles.html => generated 1655 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 45/65] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:41:31 2019] GET /static/usersroles.html => generated 1650 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 46/66] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:41:50 2019] GET /static/usersroles.html => generated 1650 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20820|app: 0|req: 21/67] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:41:55 2019] GET /static/usersroles.html => generated 1650 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 47/68] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:42:10 2019] GET /static/usersroles.html => generated 1650 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20820|app: 0|req: 22/69] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:42:53 2019] GET /static/usersroles.html => generated 1813 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20820|app: 0|req: 23/70] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:43:40 2019] GET /static/usersroles.html => generated 1935 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20820|app: 0|req: 24/71] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:44:15 2019] GET /static/usersroles.html => generated 2076 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 48/72] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:44:29 2019] GET /static/usersroles.html => generated 2090 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 49/73] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:44:46 2019] GET /static/usersroles.html => generated 1947 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 50/74] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:44:58 2019] GET /static/usersroles.html => generated 1947 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20820|app: 0|req: 25/75] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:45:01 2019] GET /static/usersroles.html => generated 1947 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 51/76] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:47:01 2019] GET /static/usersroles.html => generated 1979 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 52/77] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:47:01 2019] GET /static/usersroles.html => generated 0 bytes in 3 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 53/78] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:47:01 2019] GET /static/usersroles.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 3)
+[pid: 20820|app: 0|req: 26/79] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:47:01 2019] GET /static/usersroles.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 54/80] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:47:02 2019] GET /static/usersroles.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 55/81] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:47:02 2019] GET /static/usersroles.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 56/82] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:48:48 2019] GET /static/usersroles.html => generated 1979 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 57/83] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:49:04 2019] GET /static/usersroles.html => generated 1976 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20820|app: 0|req: 27/84] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:49:10 2019] GET /static/usersroles.html => generated 1976 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 58/85] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:49:21 2019] GET /static/usersroles.html => generated 2034 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20820|app: 0|req: 28/86] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:49:51 2019] GET /static/usersroles.html => generated 2046 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20820|app: 0|req: 29/87] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:50:24 2019] GET /static/usersroles.html => generated 2045 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20820|app: 0|req: 30/88] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:50:52 2019] GET /static/usersroles.html => generated 2044 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20820|app: 0|req: 31/89] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:50:54 2019] GET /static/usersroles.html => generated 2044 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 59/90] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:50:57 2019] GET /static/usersroles.html => generated 2044 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 60/91] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:51:06 2019] GET /static/usersroles.html => generated 2044 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 20821|app: 0|req: 61/92] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:51:09 2019] GET /static/usersroles.html => generated 2044 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20820|app: 0|req: 32/93] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:51:12 2019] GET /static/usersroles.html => generated 2045 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 20821|app: 0|req: 62/94] 127.0.0.1 () {42 vars in 785 bytes} [Tue Feb 12 17:51:16 2019] GET /static/usersroles.html => generated 2044 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 0)
+[pid: 20821|app: 0|req: 63/95] 127.0.0.1 () {42 vars in 812 bytes} [Tue Feb 12 17:51:38 2019] GET /static/usersroles.html => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 2)
+[pid: 20821|app: 0|req: 64/96] 127.0.0.1 () {38 vars in 683 bytes} [Tue Feb 12 18:45:28 2019] GET /back_add/users => generated 4851 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Tue Feb 12 18:45:48 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63323
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46055 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x55f34af85d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55f34af85d20 pid: 22170 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22170)
+spawned uWSGI worker 1 (pid: 22175, cores: 4)
+spawned uWSGI worker 2 (pid: 22179, cores: 4)
+spawned uWSGI http 1 (pid: 22180)
+[pid: 22175|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 683 bytes} [Tue Feb 12 18:45:51 2019] GET /back_add/users => generated 6064 bytes in 166 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 22175|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 671 bytes} [Tue Feb 12 18:46:07 2019] GET /back_add => generated 5318 bytes in 38 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 3)
+[pid: 22175|app: 0|req: 4/4] 127.0.0.1 () {38 vars in 681 bytes} [Tue Feb 12 18:46:07 2019] GET /static/rest_framework/js/jquery-3.3.1.min.js => generated 86927 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 2)
+[pid: 22175|app: 0|req: 4/4] 127.0.0.1 () {38 vars in 667 bytes} [Tue Feb 12 18:46:07 2019] GET /static/rest_framework/js/ajax-form.js => generated 3597 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 0)
+[pid: 22175|app: 0|req: 6/5] 127.0.0.1 () {38 vars in 657 bytes} [Tue Feb 12 18:46:07 2019] GET /static/rest_framework/js/csrf.js => generated 1735 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 3)
+[pid: 22175|app: 0|req: 6/6] 127.0.0.1 () {38 vars in 675 bytes} [Tue Feb 12 18:46:07 2019] GET /static/rest_framework/js/bootstrap.min.js => generated 37045 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 1)
+[pid: 22175|app: 0|req: 7/7] 127.0.0.1 () {38 vars in 663 bytes} [Tue Feb 12 18:46:07 2019] GET /static/rest_framework/js/default.js => generated 1268 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 2)
+[pid: 22175|app: 0|req: 8/8] 127.0.0.1 () {38 vars in 673 bytes} [Tue Feb 12 18:46:07 2019] GET /static/rest_framework/js/prettify-min.js => generated 13632 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 2)
+[pid: 22179|app: 0|req: 4/9] 127.0.0.1 () {38 vars in 700 bytes} [Tue Feb 12 18:46:07 2019] GET /static/rest_framework/css/bootstrap-tweaks.css => generated 3385 bytes in 167 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 1)
+[pid: 22179|app: 0|req: 4/10] 127.0.0.1 () {38 vars in 694 bytes} [Tue Feb 12 18:46:07 2019] GET /static/rest_framework/css/bootstrap.min.css => generated 121200 bytes in 167 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 0)
+[pid: 22179|app: 0|req: 4/11] 127.0.0.1 () {38 vars in 684 bytes} [Tue Feb 12 18:46:07 2019] GET /static/rest_framework/css/prettify.css => generated 817 bytes in 167 msecs via sendfile() (HTTP/1.1 200) 5 headers in 153 bytes (0 switches on core 2)
+[pid: 22179|app: 0|req: 4/12] 127.0.0.1 () {38 vars in 682 bytes} [Tue Feb 12 18:46:07 2019] GET /static/rest_framework/css/default.css => generated 1131 bytes in 167 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 3)
+[pid: 22179|app: 0|req: 5/13] 127.0.0.1 () {38 vars in 710 bytes} [Tue Feb 12 18:46:08 2019] GET /static/rest_framework/img/grid.png => generated 1458 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 1)
+[pid: 22179|app: 0|req: 6/14] 127.0.0.1 () {40 vars in 727 bytes} [Tue Feb 12 18:46:11 2019] GET /back_addusers/ => generated 94231 bytes in 62 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 22179|app: 0|req: 7/15] 127.0.0.1 () {38 vars in 683 bytes} [Wed Feb 13 11:19:54 2019] GET /back_addusers/ => generated 94083 bytes in 27 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 2)
+[pid: 22179|app: 0|req: 8/16] 127.0.0.1 () {38 vars in 683 bytes} [Wed Feb 13 11:19:54 2019] GET /back_addusers/ => generated 94083 bytes in 26 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 3)
+[pid: 22175|app: 0|req: 9/17] 127.0.0.1 () {38 vars in 683 bytes} [Wed Feb 13 11:19:55 2019] GET /back_addusers/ => generated 94083 bytes in 37 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 22179|app: 0|req: 9/18] 127.0.0.1 () {38 vars in 683 bytes} [Wed Feb 13 11:19:55 2019] GET /back_addusers/ => generated 94083 bytes in 48 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 22179|app: 0|req: 10/19] 127.0.0.1 () {38 vars in 683 bytes} [Wed Feb 13 11:19:56 2019] GET /back_addusers/ => generated 94083 bytes in 55 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 22179|app: 0|req: 11/20] 127.0.0.1 () {38 vars in 683 bytes} [Wed Feb 13 11:21:32 2019] GET /back_addusers/ => generated 94083 bytes in 26 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 2)
+[pid: 22179|app: 0|req: 12/21] 127.0.0.1 () {38 vars in 683 bytes} [Wed Feb 13 11:21:33 2019] GET /back_addusers/ => generated 94083 bytes in 26 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 3)
+[pid: 22179|app: 0|req: 13/22] 127.0.0.1 () {38 vars in 683 bytes} [Wed Feb 13 11:21:34 2019] GET /back_addusers/ => generated 94083 bytes in 27 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 22179|app: 0|req: 14/23] 127.0.0.1 () {38 vars in 683 bytes} [Wed Feb 13 11:21:35 2019] GET /back_addusers/ => generated 94083 bytes in 26 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 22175|app: 0|req: 10/24] 127.0.0.1 () {38 vars in 681 bytes} [Wed Feb 13 11:21:43 2019] GET /back_addusers => generated 0 bytes in 0 msecs (HTTP/1.1 301) 4 headers in 134 bytes (1 switches on core 3)
+[pid: 22175|app: 0|req: 11/25] 127.0.0.1 () {38 vars in 683 bytes} [Wed Feb 13 11:21:43 2019] GET /back_addusers/ => generated 94083 bytes in 45 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 22179|app: 0|req: 15/26] 127.0.0.1 () {38 vars in 655 bytes} [Wed Feb 13 11:21:51 2019] GET / => generated 5158 bytes in 38 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 2)
+Wed Feb 13 11:21:51 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/css/bootstrap.min.css (127.0.0.1)
+OSError: write error
+[pid: 22175|app: 0|req: 14/27] 127.0.0.1 () {38 vars in 686 bytes} [Wed Feb 13 11:21:51 2019] GET /static/rest_framework/css/bootstrap.min.css => generated 0 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 1)
+Wed Feb 13 11:21:51 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/css/default.css (127.0.0.1)
+OSError: write error
+[pid: 22175|app: 0|req: 14/28] 127.0.0.1 () {38 vars in 674 bytes} [Wed Feb 13 11:21:51 2019] GET /static/rest_framework/css/default.css => generated 0 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 2)
+Wed Feb 13 11:21:51 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/js/ajax-form.js (127.0.0.1)
+OSError: write error
+[pid: 22175|app: 0|req: 14/29] 127.0.0.1 () {38 vars in 659 bytes} [Wed Feb 13 11:21:51 2019] GET /static/rest_framework/js/ajax-form.js => generated 0 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 3)
+Wed Feb 13 11:21:51 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/js/jquery-3.3.1.min.js (127.0.0.1)
+Wed Feb 13 11:21:51 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/css/bootstrap-tweaks.css (127.0.0.1)
+OSError: write error
+[pid: 22179|app: 0|req: 19/30] 127.0.0.1 () {38 vars in 673 bytes} [Wed Feb 13 11:21:51 2019] GET /static/rest_framework/js/jquery-3.3.1.min.js => generated 0 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 3)
+OSError: write error
+Wed Feb 13 11:21:51 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/js/bootstrap.min.js (127.0.0.1)
+[pid: 22179|app: 0|req: 19/31] 127.0.0.1 () {38 vars in 692 bytes} [Wed Feb 13 11:21:51 2019] GET /static/rest_framework/css/bootstrap-tweaks.css => generated 0 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 1)
+Wed Feb 13 11:21:51 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+OSError: write error
+Wed Feb 13 11:21:51 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/js/csrf.js (127.0.0.1)
+OSError: write error
+[pid: 22179|app: 0|req: 19/32] 127.0.0.1 () {38 vars in 667 bytes} [Wed Feb 13 11:21:51 2019] GET /static/rest_framework/js/bootstrap.min.js => generated 0 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 2)
+[pid: 22179|app: 0|req: 19/33] 127.0.0.1 () {38 vars in 649 bytes} [Wed Feb 13 11:21:51 2019] GET /static/rest_framework/js/csrf.js => generated 0 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 0)
+Wed Feb 13 11:21:51 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/img/grid.png (127.0.0.1)
+OSError: write error
+[pid: 22179|app: 0|req: 20/34] 127.0.0.1 () {38 vars in 710 bytes} [Wed Feb 13 11:21:51 2019] GET /static/rest_framework/img/grid.png => generated 0 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 3)
+[pid: 22179|app: 0|req: 21/35] 127.0.0.1 () {38 vars in 661 bytes} [Wed Feb 13 11:22:02 2019] GET /api/ => generated 11922 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 1)
+Wed Feb 13 11:22:02 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/css/bootstrap-tweaks.css (127.0.0.1)
+OSError: write error
+[pid: 22179|app: 0|req: 22/36] 127.0.0.1 () {38 vars in 695 bytes} [Wed Feb 13 11:22:02 2019] GET /static/rest_framework/css/bootstrap-tweaks.css => generated 0 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 2)
+Wed Feb 13 11:22:02 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Wed Feb 13 11:22:02 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/css/bootstrap.min.css (127.0.0.1)
+OSError: write error
+[pid: 22175|app: 0|req: 15/37] 127.0.0.1 () {38 vars in 689 bytes} [Wed Feb 13 11:22:02 2019] GET /static/rest_framework/css/bootstrap.min.css => generated 0 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 0)
+[pid: 22179|app: 0|req: 23/38] 127.0.0.1 () {38 vars in 682 bytes} [Wed Feb 13 11:22:40 2019] GET /back_addusers/ => generated 94082 bytes in 28 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 22179|app: 0|req: 24/39] 127.0.0.1 () {38 vars in 682 bytes} [Wed Feb 13 11:22:41 2019] GET /back_addusers/ => generated 94082 bytes in 27 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 3)
+[pid: 22179|app: 0|req: 25/40] 127.0.0.1 () {38 vars in 682 bytes} [Wed Feb 13 11:22:42 2019] GET /back_addusers/ => generated 94082 bytes in 28 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 22179|app: 0|req: 26/41] 127.0.0.1 () {38 vars in 662 bytes} [Wed Feb 13 11:22:46 2019] GET /api/ => generated 11922 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 2)
+Wed Feb 13 11:22:46 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Wed Feb 13 11:22:46 2019 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/rest_framework/css/bootstrap.min.css (127.0.0.1)
+OSError: write error
+[pid: 22179|app: 0|req: 27/42] 127.0.0.1 () {38 vars in 689 bytes} [Wed Feb 13 11:22:46 2019] GET /static/rest_framework/css/bootstrap.min.css => generated 0 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 0)
+[pid: 22179|app: 0|req: 28/43] 127.0.0.1 () {38 vars in 662 bytes} [Wed Feb 13 11:23:21 2019] GET /api/ => generated 11922 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 3)
+[pid: 22179|app: 0|req: 29/44] 127.0.0.1 () {38 vars in 665 bytes} [Wed Feb 13 11:23:24 2019] GET /api2/ => generated 4932 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Feb 13 11:23:35 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63323
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45263 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x5568d6bd1d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5568d6bd1d20 pid: 26664 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26664)
+spawned uWSGI worker 1 (pid: 26671, cores: 4)
+spawned uWSGI worker 2 (pid: 26675, cores: 4)
+spawned uWSGI http 1 (pid: 26677)
+[pid: 26671|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 665 bytes} [Wed Feb 13 11:23:37 2019] GET /api2/ => generated 12178 bytes in 210 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Feb 13 11:24:00 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63323
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40265 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x55aaedfa2d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55aaedfa2d20 pid: 26706 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26706)
+spawned uWSGI worker 1 (pid: 26712, cores: 4)
+spawned uWSGI worker 2 (pid: 26716, cores: 4)
+spawned uWSGI http 1 (pid: 26717)
+[pid: 26716|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 665 bytes} [Wed Feb 13 11:24:03 2019] GET /api2/ => generated 3879 bytes in 163 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 26716|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 661 bytes} [Wed Feb 13 11:24:07 2019] GET /api => generated 0 bytes in 9 msecs (HTTP/1.1 301) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 26716|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 663 bytes} [Wed Feb 13 11:24:07 2019] GET /api/ => generated 12492 bytes in 42 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 2)
+[pid: 26716|app: 0|req: 4/4] 127.0.0.1 () {38 vars in 671 bytes} [Wed Feb 13 11:24:10 2019] GET /back_add => generated 0 bytes in 0 msecs (HTTP/1.1 301) 4 headers in 129 bytes (1 switches on core 3)
+[pid: 26716|app: 0|req: 5/5] 127.0.0.1 () {38 vars in 673 bytes} [Wed Feb 13 11:24:10 2019] GET /back_add/ => generated 12522 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 0)
+[pid: 26716|app: 0|req: 6/6] 127.0.0.1 () {38 vars in 673 bytes} [Wed Feb 13 11:24:12 2019] GET /back_add/ => generated 12522 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Feb 13 11:24:23 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63323
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40793 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x55d4a928bd20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d4a928bd20 pid: 26744 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26744)
+spawned uWSGI worker 1 (pid: 26749, cores: 4)
+spawned uWSGI worker 2 (pid: 26753, cores: 4)
+spawned uWSGI http 1 (pid: 26754)
+[pid: 26753|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 673 bytes} [Wed Feb 13 11:24:25 2019] GET /back_add/ => generated 5326 bytes in 198 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 26753|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 730 bytes} [Wed Feb 13 11:24:27 2019] GET /back_add/users/ => generated 94245 bytes in 41 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 26753|app: 0|req: 3/3] 127.0.0.1 () {40 vars in 730 bytes} [Wed Feb 13 11:24:33 2019] GET /back_add/users/ => generated 94245 bytes in 46 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 2)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Feb 13 11:26:55 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63323
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37955 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x55dcb1909d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55dcb1909d20 pid: 26860 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26860)
+spawned uWSGI worker 1 (pid: 26865, cores: 4)
+spawned uWSGI worker 2 (pid: 26869, cores: 4)
+spawned uWSGI http 1 (pid: 26870)
+[pid: 26869|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 685 bytes} [Wed Feb 13 11:26:58 2019] GET /back_add/users/ => generated 94096 bytes in 200 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 26865|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 685 bytes} [Wed Feb 13 11:26:59 2019] GET /back_add/users/ => generated 94096 bytes in 200 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 26865|app: 0|req: 2/3] 127.0.0.1 () {38 vars in 685 bytes} [Wed Feb 13 11:26:59 2019] GET /back_add/users/ => generated 94096 bytes in 48 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 2)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Mar  4 14:45:03 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63449
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36411 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x55f13b2dfd20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55f13b2dfd20 pid: 15539 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15539)
+spawned uWSGI worker 1 (pid: 15544, cores: 4)
+spawned uWSGI worker 2 (pid: 15548, cores: 4)
+spawned uWSGI http 1 (pid: 15549)
+[pid: 15548|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:45:40 2019] GET /newneed/Back/ => generated 3808 bytes in 175 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 15544|app: 0|req: 3/2] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:45:40 2019] GET /static/jiaocheng.png => generated 1802 bytes in 172 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15544|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:45:40 2019] GET /static/jiaocheng_2.png => generated 1808 bytes in 173 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15544|app: 0|req: 3/4] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:45:40 2019] GET /static/jiaocheng_3.png => generated 1808 bytes in 173 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 15544|app: 0|req: 4/5] 127.0.0.1 () {36 vars in 748 bytes} [Mon Mar  4 14:45:40 2019] GET /favicon.ico => generated 4114 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 15544|app: 0|req: 5/6] 127.0.0.1 () {38 vars in 769 bytes} [Mon Mar  4 14:45:44 2019] GET /back => generated 0 bytes in 0 msecs (HTTP/1.1 301) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 15548|app: 0|req: 2/7] 127.0.0.1 () {38 vars in 771 bytes} [Mon Mar  4 14:45:44 2019] GET /back/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 5 headers in 150 bytes (1 switches on core 1)
+[pid: 15544|app: 0|req: 6/8] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:45:44 2019] GET /newneed/Back/ => generated 3808 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 2)
+[pid: 15548|app: 0|req: 3/9] 127.0.0.1 () {38 vars in 760 bytes} [Mon Mar  4 14:45:44 2019] GET /static/jiaocheng_3.png => generated 1808 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15544|app: 0|req: 8/10] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:45:44 2019] GET /static/jiaocheng_2.png => generated 1808 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 15544|app: 0|req: 8/11] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:45:44 2019] GET /static/jiaocheng.png => generated 1802 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 15548|app: 0|req: 4/12] 127.0.0.1 () {38 vars in 770 bytes} [Mon Mar  4 14:45:49 2019] GET /index => generated 0 bytes in 0 msecs (HTTP/1.1 301) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 15548|app: 0|req: 5/13] 127.0.0.1 () {38 vars in 772 bytes} [Mon Mar  4 14:45:49 2019] GET /index/ => generated 0 bytes in 0 msecs (HTTP/1.1 302) 5 headers in 171 bytes (1 switches on core 0)
+[pid: 15548|app: 0|req: 6/14] 127.0.0.1 () {38 vars in 804 bytes} [Mon Mar  4 14:45:49 2019] GET /static/dist/index.html => generated 1808 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Mar  4 14:47:11 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63449
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35283 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x55e7cb790d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55e7cb790d20 pid: 15673 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15673)
+spawned uWSGI worker 1 (pid: 15678, cores: 4)
+spawned uWSGI worker 2 (pid: 15682, cores: 4)
+spawned uWSGI http 1 (pid: 15683)
+[pid: 15682|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 770 bytes} [Mon Mar  4 14:47:21 2019] GET /back/ => generated 0 bytes in 162 msecs (HTTP/1.1 302) 5 headers in 150 bytes (1 switches on core 0)
+[pid: 15682|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 786 bytes} [Mon Mar  4 14:47:21 2019] GET /newneed/Back/ => generated 3808 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 15682|app: 0|req: 5/3] 127.0.0.1 () {38 vars in 760 bytes} [Mon Mar  4 14:47:21 2019] GET /static/jiaocheng_3.png => generated 1776 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15682|app: 0|req: 5/4] 127.0.0.1 () {38 vars in 760 bytes} [Mon Mar  4 14:47:21 2019] GET /static/jiaocheng_2.png => generated 1776 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 15682|app: 0|req: 5/5] 127.0.0.1 () {38 vars in 756 bytes} [Mon Mar  4 14:47:21 2019] GET /static/jiaocheng.png => generated 1770 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15682|app: 0|req: 6/6] 127.0.0.1 () {40 vars in 818 bytes} [Mon Mar  4 14:47:32 2019] GET /newneed/Back/ => generated 3808 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 15682|app: 0|req: 7/7] 127.0.0.1 () {40 vars in 788 bytes} [Mon Mar  4 14:47:32 2019] GET /static/jiaocheng.png => generated 1770 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15678|app: 0|req: 2/8] 127.0.0.1 () {40 vars in 792 bytes} [Mon Mar  4 14:47:33 2019] GET /static/jiaocheng_2.png => generated 1776 bytes in 173 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15678|app: 0|req: 2/9] 127.0.0.1 () {40 vars in 792 bytes} [Mon Mar  4 14:47:33 2019] GET /static/jiaocheng_3.png => generated 1776 bytes in 175 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 15682|app: 0|req: 8/10] 127.0.0.1 () {40 vars in 818 bytes} [Mon Mar  4 14:47:35 2019] GET /newneed/Back/ => generated 3808 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 3)
+[pid: 15682|app: 0|req: 11/11] 127.0.0.1 () {40 vars in 788 bytes} [Mon Mar  4 14:47:35 2019] GET /static/jiaocheng.png => generated 1770 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15682|app: 0|req: 11/12] 127.0.0.1 () {40 vars in 792 bytes} [Mon Mar  4 14:47:35 2019] GET /static/jiaocheng_3.png => generated 1776 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15682|app: 0|req: 11/13] 127.0.0.1 () {40 vars in 792 bytes} [Mon Mar  4 14:47:35 2019] GET /static/jiaocheng_2.png => generated 1776 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 15682|app: 0|req: 12/14] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:49:24 2019] GET /newneed/Back/ => generated 3808 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 3)
+[pid: 15678|app: 0|req: 5/15] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:49:24 2019] GET /static/jiaocheng_2.png => generated 1776 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 15678|app: 0|req: 5/16] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:49:24 2019] GET /static/jiaocheng.png => generated 1770 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15678|app: 0|req: 5/17] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:49:24 2019] GET /static/jiaocheng_3.png => generated 1776 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Mar  4 14:53:00 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63449
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45915 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x56025218fd20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56025218fd20 pid: 15911 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15911)
+spawned uWSGI worker 1 (pid: 15916, cores: 4)
+spawned uWSGI worker 2 (pid: 15920, cores: 4)
+spawned uWSGI http 1 (pid: 15921)
+[pid: 15920|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 829 bytes} [Mon Mar  4 14:53:03 2019] GET /newneed/Back/setttings.STATIC_ROOT => generated 5315 bytes in 169 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15920|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 771 bytes} [Mon Mar  4 14:53:09 2019] GET /back/ => generated 0 bytes in 0 msecs (HTTP/1.1 302) 5 headers in 150 bytes (1 switches on core 2)
+[pid: 15916|app: 0|req: 1/3] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:53:09 2019] GET /newneed/Back/ => generated 3808 bytes in 173 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 15920|app: 0|req: 3/4] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:53:09 2019] GET /static/jiaocheng.png => generated 1770 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 15916|app: 0|req: 3/5] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:09 2019] GET /static/jiaocheng_2.png => generated 1776 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 15916|app: 0|req: 3/6] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:09 2019] GET /static/jiaocheng_3.png => generated 1776 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Mar  4 14:53:42 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63449
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37613 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x558ecbc24d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x558ecbc24d20 pid: 15951 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15951)
+spawned uWSGI worker 1 (pid: 15956, cores: 4)
+spawned uWSGI worker 2 (pid: 15960, cores: 4)
+spawned uWSGI http 1 (pid: 15961)
+[pid: 15960|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:53:45 2019] GET /newneed/Back/ => generated 3808 bytes in 182 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 15960|app: 0|req: 3/2] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:45 2019] GET /static/jiaocheng_2.png => generated 1771 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 15960|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:53:45 2019] GET /static/jiaocheng.png => generated 1765 bytes in 7 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15956|app: 0|req: 1/4] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:45 2019] GET /static/jiaocheng_3.png => generated 1771 bytes in 183 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15960|app: 0|req: 4/5] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:53:47 2019] GET /newneed/Back/ => generated 3808 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 3)
+[pid: 15960|app: 0|req: 5/6] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:47 2019] GET /static/jiaocheng_3.png => generated 1771 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15956|app: 0|req: 3/7] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:53:47 2019] GET /static/jiaocheng.png => generated 1765 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 15956|app: 0|req: 3/8] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:47 2019] GET /static/jiaocheng_2.png => generated 1771 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 15956|app: 0|req: 4/9] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:53:47 2019] GET /newneed/Back/ => generated 3808 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 2)
+[pid: 15956|app: 0|req: 5/10] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:47 2019] GET /static/jiaocheng_2.png => generated 1771 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15960|app: 0|req: 7/11] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:53:47 2019] GET /static/jiaocheng.png => generated 1765 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 15960|app: 0|req: 7/12] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:47 2019] GET /static/jiaocheng_3.png => generated 1771 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 15956|app: 0|req: 6/13] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:53:48 2019] GET /newneed/Back/ => generated 3808 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 3)
+[pid: 15960|app: 0|req: 8/14] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:48 2019] GET /static/jiaocheng_3.png => generated 1771 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15956|app: 0|req: 8/15] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:53:48 2019] GET /static/jiaocheng.png => generated 1765 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15956|app: 0|req: 8/16] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:48 2019] GET /static/jiaocheng_2.png => generated 1771 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 15960|app: 0|req: 9/17] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:53:49 2019] GET /newneed/Back/ => generated 3808 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 15960|app: 0|req: 12/18] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:49 2019] GET /static/jiaocheng_3.png => generated 1771 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15960|app: 0|req: 12/19] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:49 2019] GET /static/jiaocheng_2.png => generated 1771 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 15960|app: 0|req: 12/20] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:53:49 2019] GET /static/jiaocheng.png => generated 1765 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 15960|app: 0|req: 13/21] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:53:49 2019] GET /newneed/Back/ => generated 3808 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 15956|app: 0|req: 9/22] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:49 2019] GET /static/jiaocheng_2.png => generated 1771 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15960|app: 0|req: 15/23] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:53:49 2019] GET /static/jiaocheng_3.png => generated 1771 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 15960|app: 0|req: 15/24] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:53:49 2019] GET /static/jiaocheng.png => generated 1765 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15960|app: 0|req: 16/25] 127.0.0.1 () {38 vars in 785 bytes} [Mon Mar  4 14:54:27 2019] GET /newneed/Back/ => generated 3808 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 15956|app: 0|req: 12/26] 127.0.0.1 () {38 vars in 760 bytes} [Mon Mar  4 14:54:27 2019] GET /static/jiaocheng_3.png => generated 1771 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 15956|app: 0|req: 12/27] 127.0.0.1 () {38 vars in 756 bytes} [Mon Mar  4 14:54:27 2019] GET /static/jiaocheng.png => generated 1765 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 15956|app: 0|req: 12/28] 127.0.0.1 () {38 vars in 760 bytes} [Mon Mar  4 14:54:27 2019] GET /static/jiaocheng_2.png => generated 1771 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Mar  4 14:54:48 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63449
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45485 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x5607f51b6d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5607f51b6d20 pid: 16033 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16033)
+spawned uWSGI worker 1 (pid: 16038, cores: 4)
+spawned uWSGI worker 2 (pid: 16042, cores: 4)
+spawned uWSGI http 1 (pid: 16046)
+[pid: 16038|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 786 bytes} [Mon Mar  4 14:54:50 2019] GET /newneed/Back/ => generated 3808 bytes in 187 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 16038|app: 0|req: 4/2] 127.0.0.1 () {38 vars in 760 bytes} [Mon Mar  4 14:54:50 2019] GET /static/jiaocheng_3.png => generated 1776 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 16038|app: 0|req: 4/4] 127.0.0.1 () {38 vars in 760 bytes} [Mon Mar  4 14:54:50 2019] GET /static/jiaocheng_2.png => generated 1776 bytes in 9 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 16038|app: 0|req: 4/4] 127.0.0.1 () {38 vars in 756 bytes} [Mon Mar  4 14:54:50 2019] GET /static/jiaocheng.png => generated 1770 bytes in 9 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Mar  4 14:55:30 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63449
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37445 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x55668352dd20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55668352dd20 pid: 16071 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16071)
+spawned uWSGI worker 1 (pid: 16076, cores: 4)
+spawned uWSGI worker 2 (pid: 16080, cores: 4)
+spawned uWSGI http 1 (pid: 16081)
+[pid: 16076|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 787 bytes} [Mon Mar  4 14:55:32 2019] GET /newneed/Back/ => generated 3808 bytes in 178 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 16080|app: 0|req: 3/2] 127.0.0.1 () {38 vars in 757 bytes} [Mon Mar  4 14:55:32 2019] GET /static/jiaocheng.png => generated 1770 bytes in 192 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 16080|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:55:32 2019] GET /static/jiaocheng_2.png => generated 1776 bytes in 195 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+[pid: 16080|app: 0|req: 3/4] 127.0.0.1 () {38 vars in 761 bytes} [Mon Mar  4 14:55:32 2019] GET /static/jiaocheng_3.png => generated 1776 bytes in 195 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 16080|app: 0|req: 4/5] 127.0.0.1 () {36 vars in 594 bytes} [Mon Mar  4 14:55:44 2019] GET /newneed/Back/ => generated 3808 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 16080|app: 0|req: 5/6] 127.0.0.1 () {36 vars in 568 bytes} [Mon Mar  4 14:55:44 2019] GET /static/jiaocheng_3.png => generated 1776 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 16076|app: 0|req: 3/7] 127.0.0.1 () {36 vars in 568 bytes} [Mon Mar  4 14:55:44 2019] GET /static/jiaocheng_2.png => generated 1776 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+[pid: 16076|app: 0|req: 3/8] 127.0.0.1 () {36 vars in 564 bytes} [Mon Mar  4 14:55:44 2019] GET /static/jiaocheng.png => generated 1770 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 16076|app: 0|req: 4/9] 127.0.0.1 () {34 vars in 555 bytes} [Mon Mar  4 14:55:44 2019] GET /favicon.ico => generated 4114 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 16080|app: 0|req: 6/10] 127.0.0.1 () {36 vars in 608 bytes} [Mon Mar  4 14:56:16 2019] GET /static/jiaocheng.png => generated 1770 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 16080|app: 0|req: 7/11] 127.0.0.1 () {36 vars in 608 bytes} [Mon Mar  4 14:56:45 2019] GET /static/jiaocheng.png => generated 1770 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 3)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Mar  4 14:57:17 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63449
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40411 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x5557f8438d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5557f8438d20 pid: 16155 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16155)
+spawned uWSGI worker 1 (pid: 16160, cores: 4)
+spawned uWSGI worker 2 (pid: 16164, cores: 4)
+spawned uWSGI http 1 (pid: 16165)
+[pid: 16164|app: 0|req: 1/1] 127.0.0.1 () {36 vars in 608 bytes} [Mon Mar  4 14:57:20 2019] GET /static/jiaocheng.png => generated 89720 bytes in 164 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 0)
+[pid: 16164|app: 0|req: 2/2] 127.0.0.1 () {36 vars in 594 bytes} [Mon Mar  4 14:57:29 2019] GET /newneed/Back/ => generated 3808 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 16160|app: 0|req: 2/3] 127.0.0.1 () {36 vars in 568 bytes} [Mon Mar  4 14:57:29 2019] GET /static/jiaocheng_2.png => generated 83029 bytes in 169 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 0)
+[pid: 16160|app: 0|req: 2/4] 127.0.0.1 () {36 vars in 568 bytes} [Mon Mar  4 14:57:29 2019] GET /static/jiaocheng_3.png => generated 80841 bytes in 169 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 2)
+[pid: 16160|app: 0|req: 3/5] 127.0.0.1 () {36 vars in 594 bytes} [Mon Mar  4 15:00:39 2019] GET /newneed/Back/ => generated 3808 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 3)
+[pid: 16164|app: 0|req: 3/6] 127.0.0.1 () {36 vars in 594 bytes} [Mon Mar  4 15:00:55 2019] GET /newneed/Back/ => generated 3808 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 2)
+[pid: 16164|app: 0|req: 4/7] 127.0.0.1 () {36 vars in 594 bytes} [Mon Mar  4 15:00:59 2019] GET /newneed/Back/ => generated 3808 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 16164|app: 0|req: 7/8] 127.0.0.1 () {36 vars in 564 bytes} [Mon Mar  4 15:00:59 2019] GET /static/jiaocheng.png => generated 89720 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 3)
+[pid: 16164|app: 0|req: 7/9] 127.0.0.1 () {36 vars in 568 bytes} [Mon Mar  4 15:00:59 2019] GET /static/jiaocheng_3.png => generated 80841 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 2)
+[pid: 16164|app: 0|req: 7/10] 127.0.0.1 () {36 vars in 568 bytes} [Mon Mar  4 15:00:59 2019] GET /static/jiaocheng_2.png => generated 83029 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 0)
+[pid: 16164|app: 0|req: 8/11] 127.0.0.1 () {34 vars in 555 bytes} [Mon Mar  4 15:00:59 2019] GET /favicon.ico => generated 4114 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 16164|app: 0|req: 9/12] 127.0.0.1 () {36 vars in 594 bytes} [Mon Mar  4 15:33:52 2019] GET /newneed/Back/ => generated 3808 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 3)
+[pid: 16164|app: 0|req: 10/13] 127.0.0.1 () {38 vars in 623 bytes} [Mon Mar  4 15:33:52 2019] GET /static/jiaocheng_2.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 2)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Mar  4 15:34:07 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63449
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39193 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x5611836e3d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5611836e3d20 pid: 17141 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17141)
+spawned uWSGI worker 1 (pid: 17146, cores: 4)
+spawned uWSGI worker 2 (pid: 17150, cores: 4)
+spawned uWSGI http 1 (pid: 17151)
+[pid: 17150|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 625 bytes} [Mon Mar  4 15:34:11 2019] GET /newneed/Back/ => generated 3808 bytes in 187 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 17150|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 654 bytes} [Mon Mar  4 15:34:11 2019] GET /static/jiaocheng_2.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 1)
+[pid: 17150|app: 0|req: 3/3] 127.0.0.1 () {40 vars in 650 bytes} [Mon Mar  4 15:34:11 2019] GET /static/jiaocheng.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 2)
+[pid: 17150|app: 0|req: 4/4] 127.0.0.1 () {40 vars in 654 bytes} [Mon Mar  4 15:34:11 2019] GET /static/jiaocheng_3.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 3 headers in 91 bytes (0 switches on core 3)
+[pid: 17150|app: 0|req: 5/5] 127.0.0.1 () {36 vars in 594 bytes} [Mon Mar  4 15:34:16 2019] GET /newneed/Back/ => generated 3808 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 17150|app: 0|req: 6/6] 127.0.0.1 () {36 vars in 564 bytes} [Mon Mar  4 15:34:16 2019] GET /static/jiaocheng.png => generated 89720 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 1)
+[pid: 17146|app: 0|req: 2/7] 127.0.0.1 () {36 vars in 568 bytes} [Mon Mar  4 15:34:16 2019] GET /static/jiaocheng_2.png => generated 83029 bytes in 176 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 0)
+[pid: 17146|app: 0|req: 2/8] 127.0.0.1 () {36 vars in 568 bytes} [Mon Mar  4 15:34:16 2019] GET /static/jiaocheng_3.png => generated 80841 bytes in 176 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 1)
+[pid: 17150|app: 0|req: 7/9] 127.0.0.1 () {34 vars in 555 bytes} [Mon Mar  4 15:34:16 2019] GET /favicon.ico => generated 4114 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 2)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Tue Mar  5 15:23:07 2019] ***
+compiled with version: 7.3.0 on 10 January 2019 08:51:46
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: yanchengxin
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/yanchengxin/A/WaLiSYS/Site/Site
+writing pidfile to uwsgi.pid
+detected binary path: /home/yanchengxin/A/WaLiSYS/Site/venv/bin/uwsgi
+chdir() to /home/yanchengxin/A/WaLiSYS/Site
+your processes number limit is 63449
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44389 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Python main interpreter initialized at 0x5626c445cd30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5626c445cd30 pid: 28754 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28754)
+spawned uWSGI worker 1 (pid: 28760, cores: 4)
+spawned uWSGI worker 2 (pid: 28764, cores: 4)
+spawned uWSGI http 1 (pid: 28768)
+[pid: 28764|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 872 bytes} [Tue Mar  5 15:23:51 2019] GET / => generated 5062 bytes in 202 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 28764|app: 0|req: 3/2] 127.0.0.1 () {38 vars in 890 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/js/jquery-3.3.1.min.js => generated 86927 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 1)
+[pid: 28764|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 876 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/js/ajax-form.js => generated 3597 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 3)
+[pid: 28764|app: 0|req: 5/4] 127.0.0.1 () {38 vars in 884 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/js/bootstrap.min.js => generated 37045 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 2)
+[pid: 28764|app: 0|req: 5/5] 127.0.0.1 () {38 vars in 866 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/js/csrf.js => generated 1735 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 0)
+[pid: 28764|app: 0|req: 7/6] 127.0.0.1 () {38 vars in 882 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/js/prettify-min.js => generated 13632 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 169 bytes (0 switches on core 1)
+[pid: 28764|app: 0|req: 7/7] 127.0.0.1 () {38 vars in 872 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/js/default.js => generated 1268 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 5 headers in 168 bytes (0 switches on core 3)
+[pid: 28760|app: 0|req: 4/9] 127.0.0.1 () {38 vars in 903 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/css/bootstrap.min.css => generated 121200 bytes in 169 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 0)
+[pid: 28760|app: 0|req: 4/9] 127.0.0.1 () {38 vars in 909 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/css/bootstrap-tweaks.css => generated 3385 bytes in 169 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 2)
+[pid: 28760|app: 0|req: 4/10] 127.0.0.1 () {38 vars in 893 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/css/prettify.css => generated 817 bytes in 169 msecs via sendfile() (HTTP/1.1 200) 5 headers in 153 bytes (0 switches on core 3)
+[pid: 28760|app: 0|req: 4/11] 127.0.0.1 () {38 vars in 891 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/css/default.css => generated 1131 bytes in 169 msecs via sendfile() (HTTP/1.1 200) 5 headers in 154 bytes (0 switches on core 1)
+[pid: 28764|app: 0|req: 8/12] 127.0.0.1 () {38 vars in 927 bytes} [Tue Mar  5 15:23:51 2019] GET /static/rest_framework/img/grid.png => generated 1458 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 5 headers in 155 bytes (0 switches on core 2)
+[pid: 28764|app: 0|req: 9/13] 127.0.0.1 () {36 vars in 859 bytes} [Tue Mar  5 15:23:51 2019] GET /favicon.ico => generated 4112 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 28764|app: 0|req: 10/14] 127.0.0.1 () {38 vars in 880 bytes} [Tue Mar  5 15:23:54 2019] GET /api/ => generated 11914 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 1)
+[pid: 28764|app: 0|req: 11/15] 127.0.0.1 () {38 vars in 880 bytes} [Tue Mar  5 15:23:57 2019] GET /back => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 125 bytes (1 switches on core 3)
+[pid: 28760|app: 0|req: 5/16] 127.0.0.1 () {38 vars in 882 bytes} [Tue Mar  5 15:23:57 2019] GET /back/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 5 headers in 150 bytes (1 switches on core 0)
+[pid: 28764|app: 0|req: 12/17] 127.0.0.1 () {38 vars in 898 bytes} [Tue Mar  5 15:23:57 2019] GET /newneed/Back/ => generated 3808 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 159 bytes (1 switches on core 2)
+[pid: 28760|app: 0|req: 8/18] 127.0.0.1 () {38 vars in 866 bytes} [Tue Mar  5 15:23:57 2019] GET /static/jiaocheng.png => generated 89720 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 1)
+[pid: 28760|app: 0|req: 8/19] 127.0.0.1 () {38 vars in 870 bytes} [Tue Mar  5 15:23:57 2019] GET /static/jiaocheng_2.png => generated 83029 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 2)
+[pid: 28760|app: 0|req: 8/20] 127.0.0.1 () {38 vars in 870 bytes} [Tue Mar  5 15:23:57 2019] GET /static/jiaocheng_3.png => generated 80841 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 5 headers in 156 bytes (0 switches on core 3)

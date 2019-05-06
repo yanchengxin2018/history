@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <link rel="stylesheet" href="/static/login/login.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/static/login/login.js"></script>
+</head>
+<body>
+    <div id="choice">
+        <div id="log" onclick="window.location='/main/main/';"></div>
+        <form action="/main/login/" method="post" id="login_form">
+            {% csrf_token %}
+            <text id="login_mobile_text">&nbsp手机号</text><input type="text" name="mobile" id="login_mobile"><br><br>
+            <text id="login_password_text">&nbsp密码</text><input type="text" name="password" id="login_password"><br><br>
+            <input type="submit" id="login_submit" value="登陆"><br><br>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

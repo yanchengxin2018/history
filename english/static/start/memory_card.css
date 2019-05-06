@@ -1,0 +1,92 @@
+
+
+
+#memory_card
+{
+    background: #000000;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+#head
+{
+    /*border: #3235b8 solid 1px;*/
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+#memory_body
+{
+    /*border: #ff3840 solid 1px;*/
+    left: 0;
+    position: absolute;
+    background-image: url("/static/start/word_back.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#ok
+{
+    border: #b1acff solid 1px;
+    position: absolute;
+    border-radius: 15%;
+    /*font-size: 200px;*/
+    text-align: center;
+    background-color: #f8f4ff;
+}
+#ok_text
+{
+    /*border: #66ff4c solid 1px;*/
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#memory_body_english
+{
+    /*border: red solid 1px;*/
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 5%;
+    text-align: center;
+    font-family:"Microsoft JhengHei";
+}
+
+#memory_body_pronunciation
+{
+    /*border: red solid 1px;*/
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 40%;
+    text-align: center;
+}
+
+#memory_body_chinese
+{
+    /*border: red solid 1px;*/
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 62%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+

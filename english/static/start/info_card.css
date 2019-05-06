@@ -1,0 +1,220 @@
+
+
+#info_card
+{
+    /*border: #50ff5d solid 1px;*/
+    position: absolute;
+    background-image: url("/static/start/info_card_back_0.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+#main
+{
+    position: absolute;
+    width: 10%;
+    height: 7%;
+    /*border: red solid 1px;*/
+    background-image: url("/static/start/main.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#info_card_success_status
+{
+    border: black solid 1px;
+    border-radius: 4%;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    width: 80%;
+    height: 12%;
+    /*background-color: #daffde;*/
+    /*background-color: #fff5d1;*/
+}
+
+
+#info_card_body
+{
+    border: black solid 1px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 60%;
+    background-color: #fff2f9;
+}
+
+
+#info_card_submit
+{
+    border: black solid 1px;
+    border-radius: 4%;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 80%;
+    height: 12%;
+    background-color: #edfdff;
+}
+
+
+#info_card_body_word
+{
+    border: black solid 1px;
+    border-radius: 4%;
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    width: 80%;
+    height: 12%;
+    background-color: #fcfffa;
+}
+
+
+#info_card_body_input
+{
+    border: black solid 1px;
+    border-radius: 4%;
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    width: 80%;
+    height: 12%;
+    /*background-color: #dfffdb;*/
+    /*background-color: #fff5d1;*/
+}
+
+
+#info_card_body_level
+{
+    border: black solid 1px;
+    border-radius: 4%;
+    position: absolute;
+    top: 36%;
+    left: 10%;
+    width: 80%;
+    height: 12%;
+    background-color: #fcfffa;
+}
+
+
+#info_card_body_time
+{
+    border: black solid 1px;
+    border-radius: 4%;
+    position: absolute;
+    top: 51%;
+    left: 10%;
+    width: 80%;
+    height: 12%;
+    background-color: #fcfffa;
+}
+
+
+#info_card_body_pronunciation
+{
+    border: black solid 1px;
+    border-radius: 4%;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    width: 80%;
+    height: 12%;
+    background-color: #fcfffa;
+}
+
+
+#info_card_body_chinese
+{
+    border: black solid 1px;
+    border-radius: 4%;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 80%;
+    height: 12%;
+    background-color: #fcfffa;
+}
+
+
+#info_card_success_status_text
+{
+    /*border: #ff5a4f solid 1px;*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 13%;
+}
+
+
+#info_card_submit_text
+{
+    /*border: #ff383f solid 1px;*/
+    position: absolute;
+    top: 13%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#info_card_body_word_text
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /*border: #50ff5d solid 1px;*/
+}
+
+
+#info_card_body_input_text
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#info_card_body_level_text
+{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#info_card_body_time_text
+{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#info_card_body_pronunciation_text
+{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#info_card_body_chinese_text
+{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}

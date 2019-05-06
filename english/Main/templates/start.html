@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
+{#    <meta name="viewport" content="user-scalable=no" />#}
+    <title>单词卡</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="/static/start/start.css">
+    <link rel="stylesheet" href="/static/start/memory_card.css">
+    <link rel="stylesheet" href="/static/start/test_card.css">
+    <link rel="stylesheet" href="/static/start/info_card.css">
+    <script src="/static/start/start.js"></script>
+    <script src="/static/start/memory_card.js"></script>
+    <script src="/static/start/test_card.js"></script>
+    <script src="/static/start/info_card.js"></script>
+
+</head>
+
+<body id="body_id">
+
+    <div id="back">
+
+        <div id="memory_card" >
+            <div id="head" onclick="head_function()"></div>
+            <div id="memory_body">
+                <div id="memory_body_english">xxxxxxx</div>
+                <div id="memory_body_chinese">大幅度</div>
+                <div id="memory_body_pronunciation">dfadfas</div>
+            </div>
+            <div id="ok" onclick="memory_submit_function()"><div id="ok_text">好了</div></div>
+        </div>
+
+        <div id="test_card" >
+
+            <div id="test_chinese"><div id="test_chinese_text"></div></div>
+            <div id="test_screen"><div id="test_screen_text">xxxxx</div></div>
+            <div id="test_keys">
+
+                <div id="del" onclick="del_function()">Del</div>
+                <div id="caps" onclick="caps_function()">Caps</div>
+
+            </div>
+            <div id="test_ok" onclick="test_card_ok()"><div id="test_ok_text">确&nbsp&nbsp认</div></div>
+
+        </div>
+
+        <div id="info_card">
+            <div id="main" onclick="window.location='/main/main/';"></div>
+            <div id="info_card_success_status"><div id="info_card_success_status_text"></div></div>
+
+            <div id="info_card_body">
+                <div id="info_card_body_word"><div id="info_card_body_word_text"></div></div>
+                <div id="info_card_body_input"><div id="info_card_body_input_text"></div></div>
+                <div id="info_card_body_level"><div id="info_card_body_level_text"></div></div>
+                <div id="info_card_body_time"><div id="info_card_body_time_text"></div></div>
+                <div id="info_card_body_pronunciation"><div id="info_card_body_pronunciation_text"></div></div>
+                <div id="info_card_body_chinese"><div id="info_card_body_chinese_text"></div></div>
+            </div>
+
+            <div id="info_card_submit" onclick="info_card_submit()"><div id="info_card_submit_text">继&nbsp&nbsp续</div></div>
+
+        </div>
+
+    </div>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
